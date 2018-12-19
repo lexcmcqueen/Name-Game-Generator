@@ -1,0 +1,82 @@
+
+
+* {
+	font-family: 'Thasadith', sans-serif;
+	background-color: #424B54;
+	margin: auto;
+	width: 65%;
+	padding: 10px;
+	text-align: center;
+}
+h1 {
+		color: #FFFFFF;
+		font-size: 40px;
+		font-size: normal;
+}
+
+#nameDisplay, #songDisplay, #hintDisplay {
+	padding: 30px 40px;
+	font-size: 30px;
+	font-weight: bold;
+} 
+#nameDisplay{
+	color: #009DDC;
+}
+
+#songDisplay{
+	color: #DF2935;
+}
+#hintDisplay{
+	color: #0CCA4A;
+}
+
+/* Places the nav bar at the bottom */
+.navbar {
+	color: #FC814A;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 60%;
+}
+
+/*Styles the links in the nav bar. */
+.navbar a {
+	float: left;
+	display: inline;
+	color: #E8E8E8;
+	text-align: center;
+	padding: 15px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #E8E8E8;
+	color: #FC814A;
+}
+
+.navbar a.active {
+	background-color: #FC814A;
+	color: white;
+}
+
+
+button {
+	background-color: #93A8AC;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	padding: 18px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #FFFFFF;
+	color: #93A8AC;
+}
+
+
